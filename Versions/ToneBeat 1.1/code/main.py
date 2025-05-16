@@ -10,7 +10,7 @@ import sounddevice as sd
 import scipy.io.wavfile as wavfile
 from PyQt5.uic import loadUi
 from PyQt5 import QtWidgets, QtGui
-from PyQt5.QtWidgets import QDialog, QApplication, QWidget, QMainWindow, QSlider, QDial, QLabel, QAction, QFileDialog
+from PyQt5.QtWidgets import QDialog, QApplication, QWidget, QMainWindow, QSlider, QDial, QLabel, QAction, QFileDialog, QMessageBox
 
 ScriptDir = os.getcwd()
 ScriptPath = Path(ScriptDir)
